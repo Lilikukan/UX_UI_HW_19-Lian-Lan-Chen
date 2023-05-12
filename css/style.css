@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* section */
+body {font-family: 'Poppins', sans-serif;
+background-color: ;
+}
+/* Header, all elements in same line */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  text-align: center;
+}
+
+header .logo img {
+  width: 60px;
+  height: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 1%;
+  text-align: center;
+}
+
+header .logo span {
+    color: #333;
+    transition: color 0.3s ease;  
+    font-size 0.3s ease;
+    cursor: pointer;
+  }
+  
+  header .logo span:hover {
+    color: #30770E;
+    font-size: 22px;
+  }
+
+/* remove point from the nav bar */
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav {
+  width: 73%;
+  padding: 1%;
+}
+/* heroBanner section */
+.heroBanner {
+    background-image: url(../image/bannerbackground.gif);
+    background-size: cover;
+    display: flex;
+    background-position: center center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    
+}
+.bannerP {
+    
+    background-color: #30770E;
+    text-align: center;
+    max-width: 600px;
+height: auto;
+left: 213px;
+top: 266px;
+color: white;
+padding: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.bannerP h1 {
+    margin-bottom: 0;
+}
+
+.bannerP P {
+    font-size: 15;
+    margin-top: 0;
+    display:  flex;
+}
+
+.viewProject{
+    background-color: #30770E;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    align-items: center;
+    display:  flex;
+}
+ .viewProject img {
+    height: 20px;
+    align-items: center;
+    margin-left: 10px;
+ }
+
+
+/* Let’s align our unordered list in its container to the right. */
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  margin-left: auto;
+}
+
+.mySkills {
+    padding: 50px 0;
+    text-align: center;
+    
+  }
+  
+  .mySkills h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #30770E;
+  }
+  
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .flexContainer > div {
+    width: 250px;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .flexContainer > div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .flexContainer > div h3 {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+  }
+ 
+  /* myproject */
+  .myProjects {
+    padding: 0 120px;
+    margin-bottom: 120px;
+
+    padding: 0 5%;
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+
+  .myProjects h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #30770E;
+    text-align: center;}
+
+  
+  
+  .workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .workGrid div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 30px;
+  }
+  
+  .workGrid img {
+    border-radius: 20px;
+    width: 420px;
+    height: 337px;
+    object-fit: cover;
+    
+  }
+  
+  .workGrid h4 {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0;
+  }
+  
+  .workGrid p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .workGrid button {
+    width: 146px;
+    height: 43px;
+    background: #30770E;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    margin-top: 10px;
+    border: #30770E;
+    
+  }
+  
+  
+/* footer */
+footer {
+    
+  text-align: center;
+  padding: 20px;
+  position: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0;
+}
+
+footer p {
+  width: 100%;
+  font-size: 20pt;
+  font-weight: bold;
+  background-color: #30770E;
+  height: 190px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inline-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline-section img {
+  margin: 10px 20px 20px 20px;
+  height: 30px;
+}
+
+.workGrid button:hover {
+    background-color: #fff;
+    color: #00b894;
+    border: 2px solid #00b894;
+  }
+  
+
+  #backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #00b894;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #30770E;
+  }
+  
+  .inline-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h4, p:first-of-type {
+    margin-top: 20
+    text-align: left;}
+    .workGrid div > *:not(:first-child) {
+        margin-top: 10px;
+
+    .workGrid h4, .workGrid p, .workGrid button {
+        text-align: left;
+      }
+
+      
+      
+
+
+  @media only screen and (max-width: 768px) {
+    .workGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+ 
+  .workGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+      "project1"
+      "project2"
+      "project3";
+    grid-gap: 40px;
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .workGrid div:nth-of-type(1) {
+    grid-area: project1;
+  }
+  .workGrid div:nth-of-type(2) {
+    grid-area: project2;
+  }
+  .workGrid div:nth-of-type(3) {
+    grid-area: project3;
+  }
+ 
+
