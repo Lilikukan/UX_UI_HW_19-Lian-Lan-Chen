@@ -1,68 +1,65 @@
 $(document).ready(function() {
-    $('header .logo span').hover(function() {
-      $(this).css({
-        'color': '#30770E',
-        'font-size': '22px'
-      });
-    }, function() {
-      $(this).css({
-        'color': '#333',
-        'font-size': ''
-      });
+  $('header .logo span').hover(function() {
+    $(this).css({
+      'color': '#30770E',
+      'font-size': '22px'
+    });
+  }, function() {
+    $(this).css({
+      'color': '#333',
+      'font-size': ''
     });
   });
+});
+
+
+
+
 
 
 
 
 $(document).ready(function() {
-    $('.workGrid button').hover(function() {
-      $(this).css('background-color', '#fff');
-      $(this).css('color', '#00b894');
-      $(this).css('border', '2px solid #00b894');
-    }, function() {
-      $(this).css('background-color', '#30770E');
-      $(this).css('color', '#fff');
-      $(this).css('border', 'none');
-    });
+  $('.mySkills img').hover(function() {
+    $(this).css('transform', 'scale(1.2)');
+  }, function() {
+    $(this).css('transform', 'scale(1)');
+  });
+});
+
+
+
+
+
+
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('#backToTopBtn').fadeIn();
+    } else {
+      $('#backToTopBtn').fadeOut();
+    }
   });
 
- 
-
-  
-
- 
- 
-  $(document).ready(function() {
-    $('.mySkills img').hover(function() {
-      $(this).css('transform', 'scale(1.2)');
-    }, function() {
-      $(this).css('transform', 'scale(1)');
-    });
+  $('#backToTopBtn').click(function() {
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
   });
+});
 
-
-  $(document).ready(function() {
-    $('.workGrid img').hover(function() {
-      $(this).css('transform', 'scale(1.2)');
-    }, function() {
-      $(this).css('transform', 'scale(1)');
-    });
+$(document).ready(function() {
+  $(".projectInfo button").hover(function() {
+    $(this).css("background-color", "#00c98d");
+  }, function() {
+    $(this).css("background-color", "#30770E");
   });
+});
 
 
-
-  $(document).ready(function() {
-    $(window).scroll(function() {
-      if ($(this).scrollTop() > 100) {
-        $('#backToTopBtn').fadeIn();
-      } else {
-        $('#backToTopBtn').fadeOut();
-      }
-    });
-  
-    $('#backToTopBtn').click(function() {
-      $('html, body').animate({scrollTop : 0},800);
-      return false;
-    });
+$(document).ready(function() {
+  $(".myProjects img").hover(function() {
+    $(this).css("width", "250px");
+  }, function() {
+    $(this).css("width", "240px");
   });
+});
