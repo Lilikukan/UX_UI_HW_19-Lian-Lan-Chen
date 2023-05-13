@@ -133,6 +133,7 @@ nav ul {
 .mySkills {
     padding: 50px 0;
     text-align: center;
+    background-color: #F0FFE9;
     
   }
   
@@ -176,6 +177,7 @@ nav ul {
   max-width: 900px;
   justify-content: center;
   margin: auto;
+  
  
 }
 
