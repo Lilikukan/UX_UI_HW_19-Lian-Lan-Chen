@@ -1,0 +1,157 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* Header, all elements in same line */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    text-align: center;
+  }
+  
+  header .logo img {
+    width: 60px;
+    height: auto;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 1%;
+    text-align: center;
+  }
+  
+  /* remove point from the nav bar */
+  header nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+  }
+ 
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+
+  nav {
+    width: 73%;
+    padding: 1%;
+  }
+  
+  /* Let’s align our unordered list in its container to the right. */
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+  }
+
+  /* Code hero image */
+  section.heroImg {
+    height: 500px;
+    padding: 25px;
+    background: #ECFFE3;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  
+  section.heroImg .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  section.heroImg .content img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin-right: 100px;
+  }
+  
+  section.heroImg .content .intro {
+    
+    width: 50%;
+    text-align: center;
+    position: relative;
+    margin-top: auto;
+  }
+  
+  section.heroImg .content .intro p {
+    margin: 0;
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    padding-bottom: 40px
+  }
+  
+  section.heroImg .content .intro button {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #30770E;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+  }
+
+
+  footer {
+    
+    text-align: center;
+    padding: 20px;
+    position: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+  }
+  
+  footer p {
+    width: 100%;
+    font-size: 20pt;
+    font-weight: bold;
+    background-color: #30770E;
+    height: 190px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .inline-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inline-section img {
+    margin: 0 10px;
+    height: 30px;
+  }
